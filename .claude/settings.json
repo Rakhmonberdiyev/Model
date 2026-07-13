@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Users/rakhmonberdiev/Model/.venv/bin/pip list *)",
+      "Bash(.venv/bin/python trim_test.py)",
+      "Bash(.venv/bin/python /private/tmp/claude-501/-Users-rakhmonberdiev-Model/162243a4-7e92-4ab7-bf47-74da4e10afc1/scratchpad/py_to_ipynb.py)",
+      "Bash(.venv/bin/python -c \"import json; nb=json.load\\(open\\('trim_test.ipynb'\\)\\); print\\('valid notebook,', len\\(nb['cells']\\), 'cells'\\)\")"
+    ]
+  }
+}
